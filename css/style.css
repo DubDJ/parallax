@@ -10,14 +10,14 @@ body, html, .container {
 
 body {
   font-family: 'Dosis', sans-serif;
-  font-size: 1em;
-  text-align: center; }
+  font-size: 1.5em; }
 
 .bg-img {
   position: relative;
   width: 100%;
   height: 100%;
   opacity: 0.8;
+  text-align: center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,8 +37,12 @@ body {
 
 .color-bg {
   width: 100%;
-  font-size: 1.5em;
   padding: 25px; }
+
+.dark {
+  text-align: right;
+  color: #FFF;
+  background-color: #222; }
 
 h1 {
   opacity: 1;
@@ -46,7 +50,8 @@ h1 {
   top: 50%;
   left: 0;
   right: 0;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 1.2em; }
   h1 span {
     padding: 15px; }
   h1 span.first {
@@ -54,8 +59,14 @@ h1 {
     color: #111;
     background-color: rgba(255, 255, 255, 0.9); }
   h1 span.second {
-    color: #FFF;
-    background-color: rgba(0, 0, 0, 0.9); }
+    color: #111;
+    border: 2px solid #111; }
   h1 span.last {
     color: #FFF;
     background-color: rgba(0, 0, 0, 0.9); }
+
+footer {
+  color: #222;
+  background-color: #EEE;
+  padding: 10px;
+  text-align: center; }
