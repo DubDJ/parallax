@@ -11,14 +11,14 @@ body, html, .container {
 
 body {
   font-family: 'Dosis', sans-serif;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  text-align: center; }
 
 .bg-img {
   position: relative;
   width: 100%;
   height: 100%;
   opacity: 0.8;
-  text-align: center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,12 +41,10 @@ body {
   padding: 25px; }
 
 .dark {
-  text-align: right;
   color: #FFF;
   background-color: #222; }
 
 .floats {
-  text-align: center;
   float: left;
   width: 50%;
   box-sizing: border-box; }
@@ -93,5 +91,4 @@ h1 {
 footer {
   color: #222;
   background-color: #EEE;
-  padding: 10px;
-  text-align: center; }
+  padding: 10px; }
